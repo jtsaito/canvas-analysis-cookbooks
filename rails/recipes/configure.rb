@@ -53,7 +53,6 @@ node[:deploy].each do |application, deploy|
         owner deploy[:user]
         variables(
                   :analyst => deploy[:analyst] || {},
-                  :release_path => release_path || {},
                   :environment => deploy[:rails_env]
                   )
 
