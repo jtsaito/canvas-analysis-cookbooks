@@ -1,1 +1,3 @@
-clients: [ <%= @analyst[:clients].join(",") %> ]
+access_key_id: <%= @analyst[:access_key_id].to_s %>,
+clients: [ <%= @analyst[:clients].join(",") %> ],
+secret_access_key:  <%= @analyst[:secret_access_key].to_s %>,
