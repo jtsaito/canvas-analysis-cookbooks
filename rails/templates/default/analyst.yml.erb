@@ -1,5 +1,6 @@
 {
   analysis_ip:  <%= @analyst[:analysis_ip].to_s %>,
+  analyst_layer_id: <%= @analyst[:analyst_layer_id].to_s %>,
   access_key_id: <%= @analyst[:access_key_id].to_s %>,
   clients: [ <%= @analyst[:clients].join(",") %> ],
   secret_access_key:  <%= @analyst[:secret_access_key].to_s %>
